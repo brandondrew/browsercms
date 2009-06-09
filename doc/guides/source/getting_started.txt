@@ -38,7 +38,7 @@ By default, Rails assumes that if you do not specify a -d flag, that you want to
     cd my_new_project_name
     script/server
 
-Here we specify the -m mysql flag to rails, which will create our project using MySQL. You need to have the mysql gem installed for this to work.
+Here we specify the -d mysql flag to rails, which will create our project using MySQL. You need to have the mysql gem installed for this to work.
 
 === Using your Site
 Open your browser to http://localhost:3000/cms to log into the admin for the CMS. Enter the default username/password (in development mode)
